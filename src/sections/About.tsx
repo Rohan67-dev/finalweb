@@ -86,10 +86,10 @@ const About = () => {
   }, []);
 
   const stats = [
-    { value: '9+', label: 'Events', icon: Trophy },
+    { value: '15', label: 'Events', icon: Trophy },
     { value: '1833+', label: 'Participants', icon: Users },
-    { value: '0L+', label: 'Prize Pool', icon: Cpu },
-    { value: '0', label: 'Days of Fun', icon: Music },
+    { value: '2L', label: 'Prize Pool', icon: Cpu },
+    { value: '3', label: 'Days of Fun', icon: Music },
   ];
 
   const features = [
@@ -110,12 +110,6 @@ const About = () => {
       description: 'Cricket, football, basketball, and esports tournaments.',
       icon: Trophy,
       color: 'from-neon-blue to-neon-cyan',
-    },
-    {
-      title: 'Workshops',
-      description: 'Learn from industry experts hands-on.',
-      icon: Users,
-      color: 'from-neon-cyan to-neon-purple',
     },
   ];
 
