@@ -78,11 +78,15 @@ const Events = () => {
   const events: Event[] = [
     {
       id: 1,
-      title: 'Hackathon',
+      title: 'Coding Relay',
       category: 'Technical',
       description: '24-hour coding marathon',
-      details: 'Build innovative solutions to real-world problems. Teams of 3-4 members.',
-      date: 'March 15',
+      details: 'Description:
+Get ready for a high-stakes coding competition with three intense rounds!
+Round 1 - HackIQ: A rapid-fire quiz on CS fundamentals, OS, DBMS, networking, and algorithms.
+Round 2 - Bug Busters: Debug and fix flawed code, circuits, and logical errors.
+Round 3- DSA Showdown: Tackle complex coding challenges with optimal algorithms and data structures.',
+      date: 'February 21',
       time: '10:00 AM',
       venue: 'Tech Block',
       prize: '₹50,000',
